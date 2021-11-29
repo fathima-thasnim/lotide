@@ -5,8 +5,8 @@ const assertEqual = require('./assertEqual')
 // assertEqual(1, 1);
 
 const head = function(arr1){
-  let element = arr1.shift();
-  console.log(element);
+ return arr1.shift(1);
+  
 }
 // assertEqual(head([5,6,7]), 5);
 // assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
