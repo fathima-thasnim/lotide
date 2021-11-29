@@ -5,7 +5,7 @@ const assertEqual = require('./assertEqual')
 // assertEqual(1, 1);
 
 const head = function(arr1){
- return arr1.shift(1);
+ return arr1.slice(1);
   
 }
 // assertEqual(head([5,6,7]), 5);
