@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@fthasnim/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lodash lite",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/fathima-thasnim/lotide.git"
   },
-  "author": "",
+  "author": "fathima",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fathima-thasnim/lotide/issues"
