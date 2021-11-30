@@ -2,8 +2,14 @@ const assertEqual = require('./assertEqual');
 
 
 const tail = function(arr1) {
-  let result = array.slice(1);
-  return result;
+  
+  let arrReturn = [];
+  if (arr1.length <= 1) {
+    return arrReturn;
+  } else {
+    arrReturn = arr1.slice(1);
+  } return arrReturn;
+  
 };
 
 
